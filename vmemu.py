@@ -16,7 +16,7 @@ parser.add_argument(
     '-l', '--load',
     metavar='FILE',
     type=str,
-    help='path to a <NAME>_VMEMU.py file to run'
+    help='path to a <NAME>.py file to run'
 )
 args = parser.parse_args()
 
