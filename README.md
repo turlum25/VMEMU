@@ -87,7 +87,7 @@ This emulator comes with:
 
   Usage: Read a value from RAM into a register
   
-  Example: rde x1, 0x10
+  Example: rde x1, 0x0
 
 - Assembly labels  
 
