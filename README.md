@@ -4,7 +4,7 @@ VMEMU (Virtual Machine Emulator) is a custom Python-based CPU simulator that emu
 
 # Disclaimer
 
-This is still a bit unstable. It is only 1 day old and was meant to be a small side-project before my exams. Some parts are AI-generated, but not the crucial parts. I mostly wrote the code myself.
+This is still a bit unstable. It was made in 1 day and was meant to be a small side-project before my exams. Some parts are AI-generated, but not the crucial parts. I mostly wrote the code myself.
 
 # Emulator specs
 
