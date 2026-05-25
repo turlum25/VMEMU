@@ -59,7 +59,7 @@ This emulator comes with:
   
   Example: b.eq _yay
 
--b.ne
+- b.ne
 
   Usage: Jump if the last compare was not equal  
 
@@ -117,7 +117,27 @@ Then, you will make a variable (e.g code) and make it as `"""` instead of `"`. T
 
 After that, print the code by running `print(code)`. 
 
-For an example, please check the EXAMPLE.py in this repository.
+Here is an example: 
+
+```
+code = """
+mov x0, 1
+mov x1, 2
+mov x2, 0
+
+mov x2, x1 
+mov x1, x0
+mov x0, x2
+
+mov x2, 0
+ret
+run
+"""
+
+print(code)
+
+```
+
 
 - Running programs
 
